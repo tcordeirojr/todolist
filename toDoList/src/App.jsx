@@ -32,7 +32,7 @@ function App() {
 
 
   return (
-    <div style={{maxWidth: '400px', margin: '0 auto', padding: '20px', textAlign: 'center', backgroundColor: '#f0f0f0', borderRadius: '8px'}}>
+    <div style={{maxWidth: '400px', margin: '0 auto', padding: '20px', textAlign: 'center', backgroundColor: '#016ca6', borderRadius: '8px'}}>
       <h1>Minhas Tarefas</h1>
       <input value={texto} onChange={(e)=> setTexto(e.target.value)} placeholder='O que você quer fazer?'></input>
       <button onClick={adicionarTarefa}>Adicionar</button>
